@@ -23,6 +23,8 @@
 	<mvc:resources location="/statics/js/" mapping="/js/**" />
 	<mvc:resources location="/photos/" mapping="/photos/**" />
 
+
+	<!--fdf  -->
 	<!-- 文件上传解析器 -->
 	<bean id="multipartResolver"
 		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
